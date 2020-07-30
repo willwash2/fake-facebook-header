@@ -2,82 +2,67 @@
     box-sizing: border-box;
 }
 body {
-    background-color: white;
+    background-color: gray;
 }
 
+.navbar {
+height: 60px;
+width: 850px;
+background-color: whitesmoke;
+margin: auto;
+
+}
 
 .header {
-position: relative;
- width: 850;
+    position: relative;
+ width: 850px;
  height: 400px;
  background-color: darkslateblue;
  margin: auto;
  } 
 
-
- .navbar {
-height: 60px;
-width: 1100px;
-background-color: white;
-float: right;
-
-}
-
-
-.Box {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
-    border: 10px;
-    color: black;
-}
-
-
-.Bluebox {
-    background: #627da0;
-
-}
-
-
-.button-list {
+ .button-list {
      position: relative;
      color: darkgray;
-     top: 150px;
-     left: 1100px;
-     width: 2500px;
+     top: 200px;
+     left: 650px;
+     width: 500px;
      
  }
 
  .navbar li {
     position: relative;
     top: 10px;
-    margin-left: 30px;
+    left: 90px;
+    margin-left: 40px;
     list-style: none;
     float: left;
  }
  .profile-photo {
-    height: 200px;
-    width: 450px;
-     color: firebrick;
+     position: relative;
+    height: 150px;
+    width: 150px;
+     background-color: lightgray;
+     top: 300px;
+     left: 10px;
  }
 
-main {
-    border: 1px dotted black;
+
+.columngroup {
+    width: 850px;
+    margin: auto;
 }
 .column-left {
-    position: relative;
-    top: 60px;
-    left: 0px;
+    float: left;
     width: 328px;
-    height: 2000px;
-    border: 5px dotted yellow;
+    height: 450px;
+    border: 5px dotted rgb(41, 38, 245);
 }
 
 .column-right {
-    position: relative;
+    float: right;
     width: 512px;
-    height: 2000px;
-    border:5px tomato;
+    height: 450px;
+    border:5px dotted rgb(41, 38, 245);
     
 }
-
